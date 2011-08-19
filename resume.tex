@@ -1,0 +1,145 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2007-2010 Todd C. Miller <Todd.Miller@courtesan.com> http://www.courtesan.com/todd
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+%\usepackage[empty]{fullpage}
+\usepackage[margin=2cm]{geometry}
+
+
+\usepackage[pdftex]{xcolor}
+\definecolor{mygrey}{rgb}{0.9,0.9,0.9}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+\centering
+
+%Applying for Software Engineering Intern in Summer-2011\\ 
+
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Pankaj More}  & +91 8765696144 (phone)\\
+Department of Computer Science and Engineering &  pankajm@iitk.ac.in\\
+Indian Institute of Technology, Kanpur & pankajmore@gmail.com \\
+
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{Indian Institute of Technology, Kanpur}{B.Tech in Computer Science and Engineering}{2009 - Present}{CPI - 8.0/10.0}
+\item
+	{DAV Public School , Chandrasekharpur,Bhubaneswar }{Orissa,India }{Class XII : 94.2\%}
+\item ICSE Class X : 95.16\%
+\end{itemize}
+
+
+
+
+\resheading{Awards and Accomplishments}
+
+\begin{itemize}
+	\item \textbf{First Prize} in Game Design Competition in \textbf{Takneek '09} in first year 
+	\item \textbf{Third Prize} in Kodefest in \textbf{Takneek '10}
+	\item Secured \textbf{All India Rank 3rd} in \textbf{National Cyber Olympiad} conducted by NSO in 2008 
+	\item State Rank Fourth in CBSE Class XII Exam
+	\item District Topper in ICSE Class X Exam
+	
+\end{itemize}
+
+\resheading{Work Experience}
+
+\begin{description}
+\item[Co-Founder, Future.ly : ] An enterprise based startup in London aiming to crack the innovation genome for visualizing the State of Innovation across the World. Our vision at Future.ly is to make the cutting edge standard, visualize future possibilities and map the players, influence factors and dynamics in the innovation space around the world. Ranging from tracking the Innovators, the institution or startups that they work in, the technologies that they are working on to the invisible characteristics that connect them. 
+\item[Consultant, AidIQ : ] Working as a freelancer and contributing code to the Sahana Eden project. Integrating celery task queue with existing s3 web stack on top of web2py.
+\item[Open Source Contributions : ] Open source small time contributor to Sahana Eden, Melange. Forked an existing python module called python-epub-builder and added support for handling images in html files. For other open source work , you can see my github profile at www.github.com/pankajmore
+\end{description}
+
+\resheading{Projects}
+
+\begin{description}
+\item[Epub I/O at Pothi.com: ] (May 2011 - July 2011) WYSIWYG Ebook editing using django on the backend and backbone.js (A javascript MVC framework) on the frontend (similar to desktop applications like sigil). Added a blogs to epub converter in python which was integrated into the existing blog2book platform.
+
+\item[Exploring a Dynamic Grid:] Course Project in CS365 : Artificial Intelligence Programming . Implemented a model based agent in python which had to explore and count the no. of objects in a dynamic grid in which some object might teleport randomly. Used various techniques like Hill Climbing, Depth First Search, etc.
+
+\item[Wireless Mesh : ] The Project is based on the idea to create wifi network from a laptop connected to internet. It was successfully completed under the Programming Club IIT Kanpur. Implemented using C\#. Able to Host the wifi network on laptops.Useful to provide internet access in remote areas.\\
+
+
+\end{description}
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+Python, C, C++,  C\# , \LaTeX, PHP, MySql, Java, Haskell, Javascript 
+\item[Tools:]
+Android SDK, Django, GIT, Matlab, GIMP , Backbone.js 
+\item[Operating Systems:]
+Linux, Windows 
+
+
+\end{description}
+
+\resheading{Field of Interest}
+
+\begin{itemize}
+	\item FOSS Software Development
+	\item Android Application Development
+	\item Web 2.0 Applications
+\end{itemize}
+
+
+\resheading{Extra Curricular Activities}
+
+\begin{itemize}
+	\item Was involved in a campus startup  - INMOBILELABS for building next generation  Mobile Applications and Location Based Services
+		\begin{itemize}
+			\item Co-developer of YATAYAT, an online cab-booking service
+			\item Developing innovative social web applications 
+		\end{itemize} 
+	\item System Administrator of Navya - A Student Server Hosted at IIT Kanpur
+	\item Secretary of Programming Club, IIT Kanpur
+		\begin{itemize}
+			\item Managed the Club website using Joomla hosted on a  Virtual Private Server
+			\item Regularly in the Top 3 teams winning at the Weekend Programming Contests held round the year
+			\item Conducted workshops on Coding and Algorithmic Problem Solving for First Year Students
+		\end{itemize}
+	\item Computer Centre Secretary of Hall 3, IIT Kanpur
+	
+\end{itemize}
+
+
+
+\end{document}
